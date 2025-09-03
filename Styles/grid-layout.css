@@ -22,3 +22,14 @@ body {
     background: #f3f3f3;
     padding: 1rem;
 }
+
+/* Responsive: stack on smaller screens */
+@media (max-width: 768px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials-container {
+        grid-column: span 1;
+    }
+}
