@@ -1,0 +1,36 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'League Spartan', sans-serif;
+  background-color: #fff;
+  color: hsl(300, 43%, 22%);
+  padding: 2rem;
+}
+
+/* Intro section */
+.intro-header {
+  max-width: 1000px;
+}
+
+.intro-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 0.9;
+  letter-spacing: -1px;
+}
+
+.intro-description {
+  color: hsl(303, 10%, 53%);
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  font-weight: 500;
+}
+
+
