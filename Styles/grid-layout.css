@@ -9,8 +9,9 @@ body {
 
 /* Main grid layout */
 .main-container {
+    padding-top: 6rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     /* 2 columns */
     gap: 2rem;
     max-width: 1000px;
@@ -29,7 +30,6 @@ body {
     grid-column: span 2;
     display: grid;
     margin-top: 2rem;
-    padding: 1rem;
 }
 
 /* Responsive: stack on smaller screens */
